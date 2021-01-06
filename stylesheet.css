@@ -1,0 +1,170 @@
+
+body  {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  background-repeat: no-repeat;
+  background-image: url("background.jpg");
+  Background-size: cover;
+  position:relative;
+	}
+
+.logo	{
+	margin:-35px -30px;
+	height:200px; 
+	width:200px;
+	float:left;
+	     }
+	
+
+header     	
+    {
+	 top :0;
+	 left:0;
+	 position:fixed;
+	 color:#f4d7d7;
+	 background-color:black;
+	 text-align: center;
+	 height: 110px;
+	 width:100%;
+    }
+	
+
+header > h1 {
+	         text-transform:capitalize;
+		     font: normal bold 30px "Times New Roman", Times, serif;
+			 text-shadow: 2px 2px 4px #9A5C87;
+			
+	         }
+nav {
+	display: block;
+	text-align: center;
+	
+}
+
+nav a {
+	color:#f4d7d7;
+	padding:10px;
+	text-decoration:none;
+	text-shadow: 2px 2px 4px #9A5C87;
+}
+
+nav a:hover {
+	background-color:#f4d7d7;
+	color:#9A5C87;
+	font-weight: bold;
+	box-shadow:2px 2px 4px #f4d7d7;;
+}	
+nav a:active{
+	            background-color:#9A5C87;
+	            color:#f4d7d7;
+            	font-weight: regular;
+                  }					 
+		
+#school {
+	border : 12px solid #EEE;
+	padding: 0px;
+	height:450px;
+	left:0;
+	right:0;
+	display: block;
+	margin-top:120px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+        }
+.oval {
+	       color:#f4d7d7;
+	       background-color:black;
+		   text-shadow: 2px 2px 4px #9A5C87;
+		   border : 5px solid #f4d7d7;
+		   box-shadow:2px 2px 4px #9A5C87;
+		   width: 400px;
+		   height:30px;
+		   padding:10px 0; 
+		   float: none;
+		   text-align:center;
+		   border-radius: 50% ;
+		   margin:auto;
+		   margin-top:180px;
+            }
+h2 {
+	margin-top:150px;
+}
+.container{
+	display:none;
+}
+
+:target{
+	display: block;
+}
+.events{
+	margin-left: auto;
+    margin-right: auto;
+}
+.contact{
+	line-height: 3;
+         }
+ul  {
+	font-weight: bold;
+}
+#names   {
+	text-transform:capitalize;
+	line-height:40px;
+          }
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 20px;
+}
+.left 
+     {
+	border : 7px solid #ddd;
+	padding: 0px;
+	width: 400px;
+	height:550px;
+	 }	 
+.arrow
+     {	 
+	 height:150px;
+	 width:350px;
+	 margin-top:250px;
+	 }
+.right 
+     {
+	border : 7px solid #ddd;
+	padding: 0px;
+	width: 400px;
+	height:550px;
+	 }	 
+
+
+#map { 
+       border : 7px solid black;
+	   padding: 0;
+	   width: 700px;
+	   height:550px;
+         }
+ a:-webkit-any-link {
+      
+      cursor: pointer;
+		  }
+
+footer 
+{
+	color:#f4d7d7;
+	background-color: black;
+	text-align:center;
+    position: relative;
+	overflow:auto;
+	width:100%;
+	margin-left: auto;
+    margin-right: auto;
+	height:45px;
+	padding-top:8px;
+      }	
+	  
+
+	
