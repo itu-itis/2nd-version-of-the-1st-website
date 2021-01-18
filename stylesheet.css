@@ -88,12 +88,11 @@ nav a:active{
 h2 {
 	margin-top:150px;
 }
-
-.events{
-	
-	margin-left: auto;
-    margin-right: auto;
-}
+.events td {
+    border: 0.5px solid black;
+    padding: 15px;  
+	text-align:center;
+}		  
 .contact{
 	line-height: 3;
          }
