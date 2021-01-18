@@ -119,7 +119,7 @@
 <button class="second" id="adding" onclick="visibility('form2','form1')">Add Team</button>
 
 <div id="form1" style="display:none">
-<fieldset>
+ <fieldset style="border:none;">
   <form>
   <label for="tname">Teacher Name:</label>
   <input type="text" id="tname" name="tname" maxlength= "25" >
@@ -133,13 +133,15 @@
 	<option value="ea">EA</option>
 	<option value="dil">DIL</option>
   </select>
-  </form>
-  <button onclick="insertEntry('tname', 'subject', 'cluster')">Add</button>
+ </form>
+ <br>
+  <button class="add1" onclick="insertEntry('tname', 'subject', 'cluster')">Add</button>
  </fieldset>
 </div>
 
 <div  id="form2" style="display:none" >
     <form>
+    <fieldset style="border:none;">
     <label for="sports_type">Sports Type:</label>
 	<select id="sports_type">
 	<option value="select">Select</option>
@@ -151,7 +153,9 @@
     <label for="team_name">Team Name:</label>
     <input type="text" id="team_name" maxlength= "25">
     <input class="add2" type="submit" value="Add" onclick="insertData('sports_type', 'team_name')">
+	 </fieldset>
     </form>
+
 </div>
 
 </div>
