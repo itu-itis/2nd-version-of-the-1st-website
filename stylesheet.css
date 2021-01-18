@@ -158,7 +158,7 @@ ul  {
     padding: 15px;  
 }		  
 #adding{
-	border-radius:25px;
+	border-radius:20px;
 	position:relative;
 	margin:50px 120px;
     padding:10px 10px;
@@ -186,7 +186,7 @@ form > label {
 tbody {
 	text-align:center;
 }
-.add1 , .add2 {
+.add{
 	background-color: black;
     color: #f4d7d7;
 	text-shadow: 2px 2px 4px #9A5C87;
