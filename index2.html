@@ -13,6 +13,7 @@
 	    display: block;
                }
 </style>
+<script type="text/javascript" src="script.js"></script>
 </head>
       <body>
 	   <header>
@@ -240,54 +241,7 @@
 		  <b  style= "line-height:20px;" >© 2020 Eldaawa School | All Rights Reserved |</b>
 		  <br>
 		  <strong> Designed By Mawada Khaled </strong>
-		  </footer> 
- <script>
-function visibility(show, hide) {
-        document.getElementById(show).style.display = "block";
-        document.getElementById(hide).style.display = "none";
-      }
-function insertEntry(tnameId, subjectId, clusterId) {
-var tname = document.getElementById(tnameId);
-var subject = document.getElementById(subjectId);
-var cluster = document.getElementById(clusterId);
-
-var table = document.getElementById("teachers");
-var newRow = document.createElement("TR");
-
-createCell(newRow, tname.value);
-createCell(newRow, subject.value);
-createCell(newRow, cluster.value);
-
-table.appendChild(newRow);
-
-tname.value = "";
-subject.value = "";
-      }
-
-
-function insertData(sports_typeId, team_nameId) {
-var sports_type = document.getElementById(sports_typeId);
-var team_name = document.getElementById(team_nameId);
-
-var table = document.getElementById('sports');
-var newRow = document.createElement("TR");
-
-createCell(newRow, sports_type.value);
-createCell(newRow, team_name.value);
-
-table.appendChild(newRow);
-
-team_name.value = "";
-      }
-
-
-function createCell(parentNode, value) {
-var td = document.createElement("TD");
-td.textContent = value;
-parentNode.appendChild(td);
-      }
-	  
- </script>	  
+		  </footer>   
 
  </body>
 	   
